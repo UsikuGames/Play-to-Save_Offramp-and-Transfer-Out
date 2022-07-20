@@ -31,6 +31,8 @@ For any questions about this module, please contact Usiku Games in Kenya, or via
 
 Find out more about our play-to-save Blockchain #GamingForGood project at: www.usiku.io
 
+Please find the full whitepaper for the project here: https://docs.google.com/presentation/d/1g220kaIb-NN-55KB76gx20LH2dxjE4C6TQjr5_S1l7c/edit?usp=sharing
+
 To learn about other innovative Blockchain-based social impact projects around the world, please check out the great work being funded by:
      UNICEF Innovation Fund
      https://www.unicefinnovationfund.org/apply/blockchain-startups
