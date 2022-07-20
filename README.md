@@ -20,7 +20,9 @@ These include:
   - Confirm transaction completion
   - Burn matching amount of stable coins from the system
   - Report confirmation to player
-  
+
+Watch a DEMO video of this module at: https://www.youtube.com/watch?v=cSZ8Mjbp1ss
+
 We believe this component can be of value to many crypto-hybrid social impact platforms in the future, allowing the projects to take a selected amount of off-chain stable coins (used as currency within the project for incentivizing beneficiaries) and convert them into real-world FIAT, transferred to a select destination.
 
 Although we do not allow this (for security reasons) the same module could be used to transfer the FIAT directly to the beneficiary for a UBI or "xxxx-to-earn" type system.
