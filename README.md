@@ -1,12 +1,29 @@
-# Play-to-Save_Mint-Stable-Coins
-# Usiku Games - 2022 - Kenya
-# Distributed Open-Source under BSD License
+# Play-to-Save_Offramp-and-Transfer-Out
+Usiku Games - 2022 - Kenya
+Distributed Open-Source under BSD License
 
 This module is a part of the Usiku Games Blockchain #GamingForGood platform. 
 
-The routine monitors a designated MetaMask Crypto wallet(s), which can be Etherium, Bitcoin, BNB, USDT, USDC, or Harmony $ONE. Upon seeing a change in balance in any of the wallets, the code fetches the current exchange rate and mints the approproate number of new in-game stable coins. These coins are managed off-chain (given the high volume of transactions) and so the balance is reflected in the master bank treasury stored in the game server database.
+The routine allows players to convert the stable coins that they have won while playing games on the platform, and transfer them into their long-term FIAT accounts with our social impact partners.
 
-We believe this component can be of value to many crypto-hybrid social impact platforms in the future, allowing the projects to take in funding (from grants, investors or participants) save those in a safe treasury, and automatically mint a matching amount of off-chain stable coins for using within the project.
+These include:
+  - Health Insurance and Savings accounts
+  - Education Fees
+  - Agiculture Crop Insurance
+  - Interest bearing savings accounts
+
+## Features:
+  - Seek player input on amount to transfer and selected impact partner
+  - Confirm player account details at the impact partner (eg: Your NHIF Account details)
+  - Trigger off-ramp transaction from crypto to FIAT currency (eg: Kenya Shillings)
+  - Trigger m-pesa mobile money payment to impact partner
+  - Confirm transaction completion
+  - Burn matching amount of stable coins from the system
+  - Report confirmation to player
+  
+We believe this component can be of value to many crypto-hybrid social impact platforms in the future, allowing the projects to take a selected amount of off-chain stable coins (used as currency within the project for incentivizing beneficiaries) and convert them into real-world FIAT, transferred to a select destination.
+
+Although we do not allow this (for security reasons) the same module could be used to transfer the FIAT directly to the beneficiary for a UBI or "xxxx-to-earn" type system.
 
 For any questions about this module, please contact Usiku Games in Kenya, or via GitHub message.
 
