@@ -20,6 +20,19 @@ These include:
   - Confirm transaction completion
   - Burn matching amount of stable coins from the system
   - Report confirmation to player
+  
+## Tech Stack
+
+**Client:** HTML,JS
+
+**Server:** PHP
+
+
+## Functionality
+- Get user details from the client and send them to the backend via hmtl form.
+- The backend shoud get user details from the frontend and process them 
+  and make payments via the honey coin API.
+
 
 Watch a DEMO video of this module at: https://www.youtube.com/watch?v=cSZ8Mjbp1ss
 
