@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POP UP WALLET</title>
+
+  <!-- BULMA css link  -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+
+
+  <!-- our styles sheet -->
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+
+  <form action="index.php" id="player_cashout_form" method="post">
+
+    <div>
+
+      <h2>Enter your payment details below</h2>
+
+      <input class="input" type="text" name="player_name" placeholder="NAME:" value="" required>
+
+      <input class="input" type="number" name="player_national_id" placeholder="NATIONAL ID:" value="" required>
+
+      <input class="input" type="tel" id="phone" name="player_phone_number" placeholder="PHONE NUMBER:" value=""
+        required />
+
+      <input class="input" type="number" name="cashout_amount_by_player" placeholder="AMOUNT:" value="" required>
+
+      <div class="field is-grouped is-centered" style="justify-content:center; margin-top:20px">
+
+        <div class="control">
+          <button type="button" id="cancel_pay_out" class="button is-link is-light">Cancel</button>
+        </div>
+
+        <div class="control">
+          <button type="submit" id="submit_payout_data" class="button is-link">Tranfer!</button>
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>
